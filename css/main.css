@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400');
+ 
+ * {
+ 	box-sizing: border-box;
+ }
+
+ body {
+
+ 	font-family: 'Lato', sans-serif;
+ 	font-size: 14px;
+ 	background: #c5c5c8;
+ 	width: 800px;
+ 	max-width: 100%;
+	margin: auto;
+	position: relative;
+ }
+
+.main-content {
+	background: url(../img/bg.png) no-repeat center center;
+	width: 800px;
+	height: 600px;
+	position: relative;
+
+}
+
+.product {
+	background: #111a28;
+	width: 85.75%;
+	height: 65.16%;
+	position: absolute;
+	top: 18.16%;
+	left: 7.87%;
+	border-radius: 10px;
+}
+ 
+.logo {
+	display: inline-block;
+	height: 2.35rem;
+	width: 4.64rem;
+	margin: 1.42rem;
+	float: left;
+}
+
+
+
+.product__img {
+	display: inline-block;
+	position: relative;
+	width: 47.96%;
+	height: 40.66%;
+	margin-top: 18.7%;
+	margin-left: -12%;
+}
+
+
+.product-info {
+	display: inline-block;
+	position: absolute;
+	left: 64.9%;
+	top: 12.5%;
+}
+
+h3 {
+	color:  #e1e1e1;
+	font-size: 24px;
+	font-weight: 300;
+	width: 75%;
+	margin-bottom: 0;
+}
+
+p {
+	color:  #e1e1e1;
+	font-size: 14px;
+	font-weight: 300;
+}
+
+.product-rate {
+	background: url(../img/star.png);
+	width: 60px;
+	height: 12px;
+}
+
+.product-rate div {
+	background: url(../img/starfull.png);
+	height: 100%;
+}
+
+select {
+	position: relative;
+	color: #e1e1e1;
+	border: 0.5px solid #fff;
+	background:  #111a28;
+	opacity: 0.3;
+	width: 4.3rem;
+	height: 2rem;
+	margin-top: 1.7rem;
+	line-height: 2.3;
+	vertical-align: middle;
+	padding: 0 0.5rem;
+	/*for WebKit*/
+	-webkit-appearance: none;
+	 /* for FF */
+	-moz-appearance: none;
+	text-indent: 0.01px; 
+	text-overflow: '';
+	 /* for IE */
+	-ms-appearance: none;
+	appearance: none!important;
+	background-image: url(../img/thin-down.png);
+	background-position: 80% 50%;
+	background-repeat: no-repeat;
+	outline: none;
+	}
+
+option{
+	color: #e1e1e1;
+	background: #111a28;
+}
+
+button {
+	width: 11.5rem;
+	height: 2.6rem;
+	color: #e1e1e1;;
+	border: 0.5px solid #fff;
+	background:  #202835;
+	opacity: 0.3;
+	margin-top: 1.8rem;
+	outline: none;
+}
+
+select:hover {
+	background:  #202835;
+	background-image: url(../img/thin-down.png);
+	background-repeat: no-repeat;
+	background-position: 80% 50%;
+	opacity: 0.4;
+}
+
+button:hover {
+	background:  #202835;
+	opacity: 0.4;
+}
+
+.slide,
+.slide-border {
+	margin: 3px;
+}
+
+
+.slide:hover{
+	border: 2px solid #7e838b;
+	border-radius: 65%;
+	transition: ease 0.1s;
+}
+
+
+.product__slide {
+	position: absolute;
+	top: 21.8rem;
+	left: 10.8rem;
+}
+
+.slide-border {
+	border: 2px solid #7e838b;
+	border-radius: 55%;
+}
+
+
+
